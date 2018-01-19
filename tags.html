@@ -71,6 +71,16 @@
             <td style="padding: 10px;">include a table data cell</td>
           </tr>
           <tr>
+            <td style="padding: 10px;"><code>div</code></td>
+            <td style="padding: 10px;">division</td>
+            <td style="padding: 10px;">define block-level section in a document</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;"><code>header</code></td>
+            <td style="padding: 10px;">header</td>
+            <td style="padding: 10px;">label the page header</td>
+          </tr>
+          <tr>
             <td style="padding: 10px;"><code>ol</code></td>
             <td style="padding: 10px;">ordered list</td>
             <td style="padding: 10px;">make a numbered list</td>
@@ -79,6 +89,22 @@
             <td style="padding: 10px;"><code>ul</code></td>
             <td style="padding: 10px;">unordered list</td>
             <td style="padding: 10px;">make a list with other than numbers for each element</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;"><code>li</code></td>
+            <td style="padding: 10px;">list item</td>
+            <td style="padding: 10px;">include a list item (ordered or unordered)</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;"><code>blockquote</code></td>
+            <td style="padding: 10px;">block quotation</td>
+            <td style="padding: 10px;">show formatted quotation</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;"><code>br</code></td>
+            <td style="padding: 10px;">break</td>
+            <td style="padding: 10px;">enter line break</td>
+          </tr>
         </table>
       </div>
 
@@ -117,11 +143,20 @@
           <td style="padding: 10px;">make hyperlink</td>
           <td style="padding: 10px;">
             <code>
-              &lt;img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"&gt;
+              &lt;a href="#"&gt;Learn Enough&lt;/a&gt;
             </code>
           </td>
+          <td style="padding: 10px;"><a href="http://learnenough.com/">Learn Enough</a></td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>img</code></td>
+          <td style="padding: 10px;">image</td>
+          <td style="padding: 10px;">include an image</td>
           <td style="padding: 10px;">
-            <img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl">
+            <code>&lt;img src="mhartl.jpg" alt="Michael Hartl"&gt;</code>
+          </td>
+          <td style="padding: 10px;">
+            <img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=100" alt="Michael Hartl">
           </td>
         </tr>
         <tr>
@@ -141,6 +176,50 @@
               <li>list entry</li>
             </ol>
           </td>
+        </tr>
+      </table>
+
+      <header>
+        <h2>Document Tags</h2>
+      </header>
+
+      <table>
+        <tr>
+          <th>Tag</th>
+          <th>Name</th>
+          <th>Example</th>
+          <th>Purpose</th>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>html</code></td>
+          <td style="padding: 10px;">HTML</td>
+          <td style="padding: 10px;"><code>&lt;html&gt;</code></td>
+          <td style="padding: 10px;">define the root of an HTML document</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>head</code></td>
+          <td style="padding: 10px;">Head</td>
+          <td style="padding: 10px;">
+            <code>&lt;head&gt;</code><br>
+            <code>  &lt;title&gt;Document Title&lt;/title&gt;</code><br>
+            <code>&lt;/head&gt;</code>
+          </td>
+          <td style="padding: 10px;">contain all head elements such as a title</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>title</code></td>
+          <td style="padding: 10px;">Title</td>
+          <td style="padding: 10px;">
+            <code>&lt;title&gt;Document Title&lt;/title&gt;</code>
+          </td>
+          <td style="padding: 10px;">define the document title</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px;"><code>meta</code></td>
+          <td style="padding: 10px;">Meta</td>
+          <td style="padding: 10px;"><code>&lt;meta&gt;</code></td>
+          <td style="padding: 10px;">provide metadata (such as the character<br>
+          set in use) about the HTML document</td>
         </tr>
       </table>
     </div>
